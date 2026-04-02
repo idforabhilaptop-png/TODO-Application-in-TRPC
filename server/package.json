@@ -1,0 +1,29 @@
+{
+  "name": "01_todo-in-trpc",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun --watch index.ts",
+    "build": "echo 'No build needed'",
+    "start": "bun index.ts"
+  },
+  "dependencies": {
+    "@trpc/server": "^11.0.0",
+    "zod": "^3.23.8",
+    "mongoose": "^8.6.3",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.9",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/cors": "^2.8.17"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
